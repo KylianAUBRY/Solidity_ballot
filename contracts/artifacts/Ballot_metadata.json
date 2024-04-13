@@ -8,6 +8,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "addCendidate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -64,13 +77,33 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getNameCendidate",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumberCendidate",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "",
 						"type": "uint256"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "register",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -105,11 +138,11 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0xc393dba6377df67345a13befdd9beeef8f8f3806d57cadd3a2b2bcb2cae5b1f9",
+			"keccak256": "0x477ddb1fd35fb0867c4e84797cc46a55b0810faa5e9b671d091195a0b3ea5677",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://aafdba64d2fa349833c56565e1b00fb625d18dc45c8303dfcf356733044bd591",
-				"dweb:/ipfs/QmV2jsqCLgJG5C1SftB6kYnXpw3WRK7MAsa31Yd2ZeoCNT"
+				"bzz-raw://55ed330d28a5e6477fe37a7c7b69628fa7aedb02eef6cb27bf202cda289e47c2",
+				"dweb:/ipfs/QmWmvvmNAJUWExzaLuaZrKW5geLJT4E6mPZTkcvSCirGbS"
 			]
 		}
 	},
